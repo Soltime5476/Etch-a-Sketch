@@ -24,7 +24,7 @@ function generateGrid(gridSize) {
   // reset the button modes
   normalModeButton.disabled = true;
   randomModeButton.disabled = false;
-
+  usingRandomColor = false;
   const container = document.querySelector("#container");
   container.replaceChildren();
   const sideLength = containerSize / gridSize;
