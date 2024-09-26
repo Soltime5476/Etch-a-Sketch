@@ -1,0 +1,1 @@
+A simple website resembling something between a sketchpad and an Etch-a-Sketch.

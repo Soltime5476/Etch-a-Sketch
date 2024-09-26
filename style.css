@@ -28,12 +28,12 @@ button {
   width: 640px;
   height: 640px;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
 }
 
 .grid {
   background-color: lightgray;
-  border-style: solid; 
+  border-style: solid;
   border-color: black;
   box-sizing: border-box;
 }
