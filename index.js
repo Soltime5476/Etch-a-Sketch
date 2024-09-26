@@ -67,8 +67,8 @@ const randomModeButton = document.querySelector("button#random-mode")
 
 newGridButton.addEventListener("click", promptNewGrid)
 clearButton.addEventListener("click", clearGrid)
-normalModeButton.addEventListener("click", (e) => {e.target.disabled = true; randomModeButton.disabled = false; usingRandomColor = false})
-randomModeButton.addEventListener("click", (e) => {e.target.disabled = true; normalModeButton.disabled = false; usingRandomColor = true})
+normalModeButton.addEventListener("click", (e) => {e.target.disabled = true; randomModeButton.disabled = false; usingRandomColor = false; clearGrid()})
+randomModeButton.addEventListener("click", (e) => {e.target.disabled = true; normalModeButton.disabled = false; usingRandomColor = true; clearGrid()})
 
 generateGrid(gridDefaultSize);
 
